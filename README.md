@@ -64,20 +64,24 @@ Cada equipo trabaja en su propio repositorio:
 ## 🧭 Flujo de trabajo básico
 
 1. Clonar el repositorio de tu equipo:
+
 `git clone <URL-del-repo>`
 `cd <nombre-repo>`
 
-2. Crear tu rama personal:
+3. Crear tu rama personal:
+
 `git checkout -b alumnoX-page`
 
-3. Hacer cambios en tu página asignada y guardar con commits frecuentes:
+4. Hacer cambios en tu página asignada y guardar con commits frecuentes:
+
 `git add archivo.html`
 `git commit -m "Mensaje claro de lo que hiciste"`
 
-4. Subir tu rama al remoto:
+5. Subir tu rama al remoto:
+
 `git push origin alumnoX-page`
 
-5. Crear un Pull Request (PR), desde github, hacia main para que el supervisor revise y apruebe los cambios.
+6. Crear un Pull Request (PR), desde github, hacia main para que el supervisor revise y apruebe los cambios.
 
 📌 Recuerda: nunca trabajar directamente en main.
 
