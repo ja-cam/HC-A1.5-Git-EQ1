@@ -66,6 +66,7 @@ Cada equipo trabaja en su propio repositorio:
 1. Clonar el repositorio de tu equipo:
 
 `git clone <URL-del-repo>`
+
 `cd <nombre-repo>`
 
 3. Crear tu rama personal:
