@@ -76,6 +76,7 @@ Cada equipo trabaja en su propio repositorio:
 4. Hacer cambios en tu página asignada y guardar con commits frecuentes:
 
 `git add archivo.html`
+
 `git commit -m "Mensaje claro de lo que hiciste"`
 
 5. Subir tu rama al remoto:
