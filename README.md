@@ -92,9 +92,6 @@ git push origin alumnoX-page
 📝 Recomendaciones
 
 - Mensajes de commit claros y descriptivos.
-
 - Hacer commits frecuentes, no al final de todo.
-
 - Revisar siempre la rama main antes de hacer push o PR.
-
 - Esperar aprobación del supervisor antes de considerar tu trabajo “finalizado”.
