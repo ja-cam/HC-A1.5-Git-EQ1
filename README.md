@@ -1,4 +1,4 @@
-# Proyecto de Herramientas Colaborativas (HC) – UD1, Ejercicio 1
+# Proyecto de Herramientas Colaborativas (HC) – UD1
 
 Bienvenidos al **proyecto colaborativo de HTML** para la Unidad Didáctica 1 de la asignatura **Herramientas Colaborativas (HC)**.  
 En este ejercicio, aprenderemos a trabajar en equipo usando **Git** y **GitHub**, aplicando buenas prácticas de control de versiones.
