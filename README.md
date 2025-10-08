@@ -24,9 +24,9 @@ contact.html
 README.md
 
 
-- `index.html` → Página principal  
-- `pages/about.html` → Página “Sobre nosotros”  
-- `pages/contact.html` → Página “Contacto”  
+- `index.html`   → Página principal  
+- `about.html`   → Página “Sobre nosotros”  
+- `contact.html` → Página “Contacto”  
 
 > Cada alumno será responsable de una de estas páginas en su **rama personal**.
 
@@ -34,15 +34,18 @@ README.md
 
 ## 👥 Organización de los equipos
 
-- **Equipo A:** alumnos 1, 2 y 3  
-- **Equipo B:** alumnos 4, 5 y 6  
+- **Supervisor:** Ja-Cam  
+- **Equipo 1:** alumnos 1, 2 y 3  
+- **Equipo 2:** alumnos 4, 5 y 6  
+- **Equipo 3:** alumnos 7, 8 y 9  
 
 Cada equipo trabaja en su propio repositorio:
 
-- `HC_UD1_Ej1_EquipoA`  
-- `HC_UD1_Ej1_EquipoB`  
+- `HC-A1.5-Git-EQ1`  
+- `HC-A1.5-Git-EQ2`  
+- `HC-A1.5-Git-EQ3`  
 
-> Tú, como supervisor, serás el propietario de ambos repositorios y revisarás los PRs antes de integrarlos a `main`.
+> El supervisor, es el propietario de los repositorios y revisarás los PRs antes de integrarlos a `main`.
 
 ---
 
@@ -51,8 +54,8 @@ Cada equipo trabaja en su propio repositorio:
 | Alumno | Página asignada     | Rama recomendada          |
 |--------|-------------------|--------------------------|
 | Alumno 1 | `index.html`      | `alumno1-index`          |
-| Alumno 2 | `pages/about.html`| `alumno2-about`          |
-| Alumno 3 | `pages/contact.html`| `alumno3-contact`      |
+| Alumno 2 | `about.html`| `alumno2-about`          |
+| Alumno 3 | `contact.html`| `alumno3-contact`      |
 
 > Cada alumno trabaja **solo en su rama**. No se permite modificar directamente `main`.
 
@@ -62,7 +65,36 @@ Cada equipo trabaja en su propio repositorio:
 
 1. Clonar el repositorio de tu equipo:
 
-```bash
 git clone <URL-del-repo>
 cd <nombre-repo>
 
+
+2. Crear tu rama personal:
+
+git checkout -b alumnoX-page
+
+
+3. Hacer cambios en tu página asignada y guardar con commits frecuentes:
+
+git add archivo.html
+git commit -m "Mensaje claro de lo que hiciste"
+
+
+4. Subir tu rama al remoto:
+
+git push origin alumnoX-page
+
+
+5. Crear un Pull Request (PR), desde github, hacia main para que el supervisor revise y apruebe los cambios.
+
+📌 Recuerda: nunca trabajar directamente en main.
+
+📝 Recomendaciones
+
+> Mensajes de commit claros y descriptivos.
+
+> Hacer commits frecuentes, no al final de todo.
+
+> Revisar siempre la rama main antes de hacer push o PR.
+
+> Esperar aprobación del supervisor antes de considerar tu trabajo “finalizado”.
