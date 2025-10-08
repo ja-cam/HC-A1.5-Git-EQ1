@@ -89,7 +89,7 @@ git push origin alumnoX-page
 
 📌 Recuerda: nunca trabajar directamente en main.
 
-📝 Recomendaciones
+📝 Recomendaciones:
 
 - Mensajes de commit claros y descriptivos.
 - Hacer commits frecuentes, no al final de todo.
